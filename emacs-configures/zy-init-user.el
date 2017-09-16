@@ -7,6 +7,9 @@
 ;; 高亮显示当前行
 (global-hl-line-mode)
 
+;; 自动打开上次打开的文件
+(desktop-save-mode 1)
+
 ;; 显示行号
 (global-linum-mode t)
 
