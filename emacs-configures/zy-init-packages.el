@@ -5,7 +5,9 @@
 
 ;; 设置要添加的三方库
 (defvar Yanice/packages '(
+			  magit
 			  swiper
+			  neotree
 			  counsel
 	     		  company
 			  web-mode
@@ -38,6 +40,8 @@
 ;;加载主题
 (load-theme 'spacemacs-dark t)
 
+;; neotree
+(global-set-key [f1] 'neotree-toggle)
 
 ;; yasnippet
 (yas-global-mode t)

@@ -7,7 +7,7 @@
  '(company-minimum-prefix-length 1)
  '(package-selected-packages
    (quote
-    (yasnippet spacemacs-theme hungry-delete smartparens js2-mode web-mode company counsel swiper))))
+    (neotree yasnippet spacemacs-theme hungry-delete smartparens js2-mode web-mode company counsel swiper))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

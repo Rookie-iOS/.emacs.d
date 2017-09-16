@@ -10,6 +10,22 @@
 ;; 显示行号
 (global-linum-mode t)
 
+;;启用时间显示设置，在minibuffer上面的那个杠上
+(display-time-mode t)
+
+;; 24小时时间显示格式
+(setq display-time-24hr-format t)
+
+;; 时间显示格式 月-日 | 时间
+(setq display-time-format "%m-%d| %w | %H:%M")
+
+;; 显示日期
+(setq display-time-day-and-date t)
+
+;; 刷新间隔
+(setq display-time-interval 10)
+
+
 ;; 用输入的内容替换选中的内容
 (delete-selection-mode t)
 
@@ -26,7 +42,7 @@
 (setq inhibit-splash-screen t)
 
 ;; 更改显示字体大小13pt
-(set-face-attribute 'default nil :height 100)
+(set-face-attribute 'default nil :height 110)
 
 ;; 括号自动匹配
 (add-hook 'emacs-lisp-mode-hook 'show-paren-mode)
@@ -35,7 +51,8 @@
 ;;(setq initial-frame-alist (quote ((fullscreen . maximized))))
 
 ;; 设置窗口大小及位置
-(setq initial-frame-alist '((top . 0) (left .0) (width . 200) (height . 75)))
+(setq initial-frame-alist '((top . 0) (left . 45) (width . 135) (height . 50)))
+
 
 ;; 开启最近打开文件记录
 (recentf-mode t)

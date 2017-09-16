@@ -7,6 +7,14 @@
 ;; 快速打开最近打开文件列表
 (global-set-key (kbd "C-x C-r") 'recentf-open-files)
 
+;; magit
+
+(global-set-key (kbd "C-c g") 'magit-status)
+
+
+
+
+
 ;; swiper快捷键绑定
 (global-set-key "\C-s" 'swiper)
 (global-set-key (kbd "M-x") 'counsel-M-x)
