@@ -13,6 +13,7 @@
 			  web-mode
 			  js2-mode
 			  yasnippet
+			  powerline
 			  smartparens
 			  hungry-delete
 			  spacemacs-theme
@@ -45,6 +46,10 @@
 
 ;; yasnippet
 (yas-global-mode t)
+
+;; powerline
+
+(powerline-default-theme)
 
 ;; js2Mode
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))

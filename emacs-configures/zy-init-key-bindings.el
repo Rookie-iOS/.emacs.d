@@ -8,12 +8,10 @@
 (global-set-key (kbd "C-x C-r") 'recentf-open-files)
 
 ;; magit
-
 (global-set-key (kbd "C-c g") 'magit-status)
 
-
-
-
+;; 不用执行表达式必须把光标放到表达式的最后
+(global-set-key (kbd "C-c C-e") 'eval-defun)
 
 ;; swiper快捷键绑定
 (global-set-key "\C-s" 'swiper)

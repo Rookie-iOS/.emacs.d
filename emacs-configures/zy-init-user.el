@@ -8,7 +8,7 @@
 (global-hl-line-mode)
 
 ;; 自动打开上次打开的文件
-(desktop-save-mode 1)
+;; (desktop-save-mode 1)
 
 ;; 显示行号
 (global-linum-mode t)
@@ -26,7 +26,7 @@
 (setq display-time-day-and-date t)
 
 ;; 刷新间隔
-(setq display-time-interval 10)
+(setq display-time-interval 5)
 
 
 ;; 用输入的内容替换选中的内容
@@ -54,7 +54,7 @@
 ;;(setq initial-frame-alist (quote ((fullscreen . maximized))))
 
 ;; 设置窗口大小及位置
-(setq initial-frame-alist '((top . 0) (left . 45) (width . 135) (height . 50)))
+(setq initial-frame-alist '((top . 0) (left . 30) (width . 135) (height . 50)))
 
 
 ;; 开启最近打开文件记录
